@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="tempmonitor" type="tempPub.py" name="publisher_node" output="screen" />
+  <node pkg="tempmonitor" type="fehreSub.py" name="fahrenheit_node" output="screen" />
+  <node pkg="tempmonitor" type="kelvinSub.py" name="kelvin_node" output="screen" />
+</launch>
